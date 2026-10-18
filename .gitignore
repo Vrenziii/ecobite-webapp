@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Environment Variables (Sangat penting!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Next.js Build Output
+/frontend/.next/
+/frontend/out/
+
+# Log Files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Uploads / Media Local (Agar foto dummy tidak ikut ke GitHub)
+/backend/uploads/*
+!/backend/uploads/.gitkeep
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
